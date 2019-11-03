@@ -4,6 +4,7 @@ import argparse
 import shutil
 
 download_path = "./raw-dataset/DukeMTMC-reID/"
+download_path = "./raw-dataset/Market1501/"
 
 parser = argparse.ArgumentParser(description='prepare')
 parser.add_argument('--Market', action='store_true', help='prepare dataset market1501')
